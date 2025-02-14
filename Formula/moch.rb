@@ -22,7 +22,6 @@ class Moch < Formula
     venv.pip_install "click==8.1.8"
     venv.pip_install "typing-extensions==4.12.2"
     venv.pip_install "platformdirs==4.3.6"
-    venv.pip_install "asyncio==3.4.3"
 
     # Install the main package
     venv.pip_install_and_link buildpath
