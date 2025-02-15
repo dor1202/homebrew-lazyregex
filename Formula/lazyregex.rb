@@ -1,4 +1,4 @@
-class LazyRegex < Formula
+class Lazyregex < Formula
   include Language::Python::Virtualenv
 
   url "https://github.com/dor1202/lazyregex/archive/refs/tags/v0.2.8.tar.gz"
