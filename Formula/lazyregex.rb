@@ -1,11 +1,11 @@
 class Lazyregex < Formula
   include Language::Python::Virtualenv
 
-  url "https://github.com/dor1202/lazyregex/archive/refs/tags/v0.2.8.tar.gz"
-  sha256 "952ec645e868f3092bf93c5ef9a53e4cd8d879a875cca615b4ede5c3249bb052"
+  url "https://github.com/dor1202/lazyregex/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "33ea67fc1d7703b3705b99dddd89f606cee1509023da84729058e175e8158042"
   desc "TUI to test and develop regexes"
   homepage "https://github.com/dor1202/lazyregex"
-  version "0.2.8"
+  version "0.3.0"
   license "MIT"
 
   depends_on "python@3.11"
