@@ -1,10 +1,10 @@
-class Moch < Formula
+class LazyRegex < Formula
   include Language::Python::Virtualenv
 
-  url "https://github.com/dor1202/moch/archive/refs/tags/v0.2.8.tar.gz"
+  url "https://github.com/dor1202/lazyregex/archive/refs/tags/v0.2.8.tar.gz"
   sha256 "952ec645e868f3092bf93c5ef9a53e4cd8d879a875cca615b4ede5c3249bb052"
   desc "TUI to test and develop regexes"
-  homepage "https://github.com/dor1202/moch"
+  homepage "https://github.com/dor1202/lazyregex"
   version "0.2.8"
   license "MIT"
 
@@ -28,6 +28,6 @@ class Moch < Formula
   end
 
   test do
-    system "#{bin}/moch", "--help"
+    system "#{bin}/lazyregex", "--help"
   end
 end
